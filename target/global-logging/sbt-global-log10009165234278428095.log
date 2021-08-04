@@ -1,0 +1,24 @@
+[debug] > Exec(all {file:/C:/Users/user/JSON/}json/products {file:/C:/Users/user/JSON/}json/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\user\JSON\target\scala-2.13\classes ...
+[error] C:\Users\user\JSON\src\main\scala\Africa.scala:14:23: overloaded method toString with alternatives:
+[error]   (x$1: Array[Object])String <and>
+[error]   (x$1: Array[Double])String <and>
+[error]   (x$1: Array[Float])String <and>
+[error]   (x$1: Array[Boolean])String <and>
+[error]   (x$1: Array[Byte])String <and>
+[error]   (x$1: Array[Char])String <and>
+[error]   (x$1: Array[Short])String <and>
+[error]   (x$1: Array[Int])String <and>
+[error]   (x$1: Array[Long])String
+[error]  cannot be applied to (scala.io.BufferedSource)
+[error]   println(util.Arrays toString data);
+[error]                       ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 27 июл. 2021 г., 22:44:46
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

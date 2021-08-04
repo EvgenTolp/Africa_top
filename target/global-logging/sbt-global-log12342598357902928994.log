@@ -1,0 +1,7 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Strategy 'discard' was applied to a file (Run the task at debug level to see details)
+[info] Assembly up to date: C:\Users\user\JSON\target\scala-2.13\JSON-assembly-0.1.jar
+[success] Total time: 3 s, completed 4 авг. 2021 г., 15:44:32
+[debug] > Exec(idea-shell, None, None)
